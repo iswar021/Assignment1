@@ -1,0 +1,522 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+}
+
+.fa-check-double{
+    color: red;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------------------header---------------------------------------------------------  */
+       #sailor{
+         padding-left: 5rem;
+        padding-top:1.5rem;
+        padding-bottom: 1.5rem;
+      } 
+ 
+   
+        .nav-ul{
+            padding-top: 1rem;
+            display: flex;
+           flex-wrap: wrap;
+            align-items: center;
+            border: 1rem;
+            padding-bottom: 0.5rem;
+            
+
+        }
+    
+       .nav-ul li{
+            display: inline;
+        }
+     
+      
+        #home{
+
+            padding-left: 35rem;
+            color: red;
+        }
+        #about{
+            padding-left: 5rem;
+        }
+        #portfolio,#service,#pricing,#blog,#contact{
+            padding-left: 4rem;
+        }
+        #getstarted{
+            padding-left:5rem;
+            
+           
+        }
+        .get-button{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            background-color: red;
+            color: white;
+           border-radius:0.2rem;
+           border:none;
+        } 
+
+        /* -------------------------------------------------------------------------------------------container fluid-----------------------------------------------*/
+       
+           
+         
+        .container{
+            background-image:url(./assets/background_01.jpg);
+            height: 35rem;
+            width: 100vw;
+        
+        }
+        .hello{
+            padding-top: 10rem;
+            text-align: center;
+        }
+      #container-p{
+          padding-top:2rem;
+      }
+      .container-button{
+          padding-top: 2rem;
+      }
+     #con-button{
+        padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background-color: red;
+            color: white;
+           border-radius:0.2rem;
+           border: none;
+     } 
+    
+    #container-h2{
+        
+    }
+
+    /* ---------------------------------------------------------------------------------------- section part---------------------------------------------- */
+
+    .sec1-1{
+        
+        width: 32rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+  .sec1{
+      padding-top: 2rem;
+    
+    padding-left: 6rem;
+   
+      
+   flex: 1; 
+
+  }
+  .sec2{
+      
+       padding-top: 2rem;
+       padding-right: 4rem;
+
+ flex: 2; 
+  }
+
+  .section-container{
+      display: flex;
+      
+
+     
+  }
+  /*---------------------------------------------------- main------------------------------------------------------------------------------------------------------------  */
+
+ .main-container1{
+    background:whitesmoke;
+    border:whitesmoke 1px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    
+   margin: 1rem;
+    border-radius:1.5rem;
+    opacity: 1;
+    
+    display: flex;
+    
+ }
+ .item1,.img-size{
+   width: 10rem;
+    padding: 0.02rem;
+    padding-left:1.5rem;
+   
+flex: 1;
+
+}
+.main-container1 li{
+    display: inline;
+}
+
+
+/* -------------------------------main container 2------------------------------------------------------------------------------------------------------------------- */
+
+/*  -----------------------------------------------------------------------------   */
+ 
+.fa-briefcase{
+    color: red;
+    font-size: 2.3rem;
+    
+    
+}
+.fa-signal{
+    color: red;
+    font-size: 2.3rem;
+      
+}
+.fa-sun-o{
+    font-size: 2.3rem;
+    
+    color: red;  
+}
+.fa-table-list{
+    font-size: 2.3rem;
+      
+    color: red;  
+}
+.fa-binoculars{
+    font-size: 2.5rem;
+      
+    color: red;
+}
+.fa-calendar-days{
+    font-size: 2.5rem;
+      
+    color: red; 
+}
+
+/*  ------------------------------------------------------------------- -------------------------  */
+.part1 p{
+    padding-top: 1rem;
+}   
+
+.part2 p{
+    padding-top: 1rem;
+}
+.part1{
+        
+       
+        background: rgb(241, 240, 240);
+        border:whitesmoke 1px;
+     
+         height: 12rem;
+          margin: 1rem;      
+        border-radius:1.1rem;
+       
+       
+
+        
+      
+    }
+    .part2{
+       
+        background: rgb(241, 240, 240);
+        border:#f5f5f5 1px;
+        
+        
+      height:12rem;
+        padding-left: 1rem; 
+        margin: 1rem;
+       
+        border-radius:1.1rem;
+       
+    }
+    
+    
+  .container2p1{
+      padding-left: 6rem;
+     
+      flex: 1;
+  }
+  .container2p2{
+      padding-right: 2rem;
+     
+      flex: 1;
+
+  }
+
+   .main-container2{
+       padding: 1rem;
+       display:flex;
+     
+       height: 45rem;
+
+      
+       
+   }
+
+   /*----------------------- list formatting --------------------*/
+
+   .small-nav{
+       display: flex;
+       justify-content: center;
+
+
+   }
+   .small-nav li{
+       display: inline;
+       padding: 0.5rem;
+     
+   }
+   #li-1{
+       background-color: red;
+       color: white;
+   }
+   /* -------------------------image formatting -----------------------*/
+   
+.image-format{
+    margin: 1rem;
+    display: flex;
+   
+   
+   height: 70rem;
+  align-content: space-around;
+}
+.img1{
+    width: 35rem;
+    margin: 1rem;
+  padding-left: 5rem;
+    
+}
+.img2{
+width: 30rem;
+margin: 1rem;
+
+padding-left: 3rem;
+}
+.img3{
+   width: 35rem;
+    margin: 1rem;
+  padding-left: 3rem;
+   
+}
+
+.img1-1{
+    margin: 1rem;
+    
+    height: 28rem;
+    width: 27rem;
+  
+}
+.img1-2{
+    margin: 1rem;
+    
+    height: 35rem;
+    width: 27rem;
+    
+}
+
+.img2-1{
+   margin: 1rem;
+   
+    height: 16rem;
+    width: 25rem;
+    
+}
+.img2-2{
+   margin: 1rem;
+    
+    height: 34rem;
+    width: 25rem;
+  
+    
+}
+.img2-3{
+    margin: 1rem;
+   
+   height: 12rem;
+   width: 25rem;
+    
+}
+.img3-1{
+   margin: 1rem;
+   
+   width: 22rem;
+    height: 16rem;
+}
+
+.img3-2{
+    margin: 1rem;
+    
+    
+    height: 14rem;
+    width: 22rem;
+}
+
+.img3-3{
+   
+  
+    height: 14rem;
+    width: 22rem;
+}
+
+.img3-4{
+    
+   
+    height: 14rem;
+    width: 22rem;
+}
+
+
+   /*  ---------------------------- footer -------------------------------------- ---------------------------------------------------------------------   */
+/* sailor info class */
+.info{
+    padding-left: 1rem;
+   
+   flex:1
+   
+   
+}
+
+.icons{
+    margin: 1rem;
+  
+    width: 19rem;
+    height: 3rem;
+    padding-left: 3.5rem;
+    padding-bottom: 2.5rem;
+}
+/* font size */
+
+.fa-facebook-square {
+    font-size: 2rem;
+    padding:0.5rem ;
+}
+.fa-twitter-square{
+    font-size: 2rem;
+    padding:0.5rem ;
+}
+.fa-skype{
+    font-size: 2rem;
+    padding:0.5rem ;
+}
+.fa-instagram{
+    font-size: 2rem;
+    padding:0.5rem ;
+}
+
+.fa-linkedin{
+    font-size: 2rem;
+    padding:0.5rem ;
+}
+
+.fa-angle-right{
+    font-size: 0.7rem;
+    font-stretch: 0.5rem;
+    
+}
+/*  */
+
+.service li{
+    display: block;
+    padding-left:0.5rem;
+    padding-bottom: 1.9rem; 
+}
+
+.sub-info{
+    margin: 1rem;
+    padding-left: 4rem;
+     padding-top: 4rem;
+   
+    width: 15rem;
+}
+.credential-list{
+    margin: 0.9rem;
+    padding-top: 0.1rem;
+    padding-left: 4rem;
+    width: 25rem;
+   
+}
+.credential-list li{
+display: inline;
+
+}
+
+.Usefull{
+    padding-top: 4rem;
+   
+    flex:1
+}
+
+.Usefull li{
+    display: block;
+    padding-left:0.5rem;
+    padding-bottom: 1.9rem;
+
+}
+
+
+
+.service{
+    padding-top: 4rem;
+  
+    flex: 1;
+}
+
+
+
+
+.subscribe{
+    padding-top:4rem;
+    flex: 2;
+    
+    
+}
+.subscribe p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.sub_text{
+    border-radius: 0.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: none;
+      
+
+}
+.subscribe-btn{
+    border-radius:0.2rem;
+    padding-top:1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    border: none;
+    color: white;
+    background-color: red;
+    
+}
+   .foot-container{
+       display: flex;
+       background-color:rgb(116, 113, 113);
+       color: white;
+       height: 25rem;
+       justify-content: space-around;
+   }
+
+   /*----------------------------------------------------------------- copyright ---------------------------------------------------------------------------------------  */
+.copyright{
+    padding-top: 2rem;
+text-align: center;
+background-color: rgb(100, 99, 99);
+height: 5.2rem;
+color: white;
+
+
+}
